@@ -1,0 +1,35 @@
+﻿@page "/toastr"
+@inject IJSRuntime JSRuntime
+
+<h3>Toastr Notification Example</h3>
+
+<button @onclick="ShowSuccessNotification">Show Success</button>
+<button @onclick="ShowErrorNotification">Show Error</button>
+<button @onclick="ShowWarningNotification">Show Warning</button>
+<button @onclick="ShowInfoNotification">Show Info</button>
+
+@code {
+    private async Task ShowSuccessNotification()
+    {
+        // Call the JavaScript function to show a success message
+        await JSRuntime.InvokeVoidAsync("toastrInterop", "success", "Success Notification");
+    }
+
+    private async Task ShowErrorNotification()
+    {
+        // Call the JavaScript function to show an error message
+        await JSRuntime.InvokeVoidAsync("toastrInterop", "error", "Error Notification");
+    }
+
+    private async Task ShowWarningNotification()
+    {
+        // Call the JavaScript function to show a warning message
+        await JSRuntime.InvokeVoidAsync("toastrInterop", "warning", "Warning Notification");
+    }
+
+    private async Task ShowInfoNotification()
+    {
+        // Call the JavaScript function to show an info message
+        await JSRuntime.InvokeVoidAsync("toastrInterop", "info", "Info Notification");
+    }
+}
