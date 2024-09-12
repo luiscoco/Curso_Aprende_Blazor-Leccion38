@@ -7,7 +7,7 @@ En esta lección vamos a explicar cómo invocar a las funciones de la libreria d
 https://github.com/CodeSeven/toastr
 https://codeseven.github.io/toastr/demo.html
 
-**Nota Importante!**: la librería Toastr require utilizar JQuery en nuestra aplicación
+**Nota Importante!**: la librería Toastr require utilizar **JQuery** en nuestra aplicación
 https://cdnjs.com/libraries/jquery
 
 1. Abrir la aplicación con Visual Studio 2022 o VSCode
