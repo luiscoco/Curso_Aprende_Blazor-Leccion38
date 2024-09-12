@@ -1,6 +1,6 @@
 # CURSO: APRENDE BLAZOR
 
-# LECCIÓN 38: Interoperatibilidad con JavaScript (libreria Toastr)
+# LECCIÓN 38: Interoperabilidad con JavaScript (libreria Toastr)
 
 En esta lección vamos a explicar cómo invocar a las funciones de la libreria de Notificaciones Toastr, desarrollada en JavaScript
 
